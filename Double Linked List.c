@@ -138,8 +138,19 @@ void reverse(struct Node **head_ref)
      if(temp != NULL ) 
         *head_ref = temp->prev; 
 }      
- https://www.geeksforgeeks.org/reverse-a-doubly-linked-list/
  
+ 
+//free List 
+void FreeList()
+{
+	while (Head->Next !=NULL)
+	{
+		Head = Head->Next;
+		free(Head->Previous);
+	}
+	Head = NULL;
+	Tail = NULL;
+}
 
 
 
