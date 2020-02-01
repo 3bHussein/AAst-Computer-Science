@@ -24,7 +24,28 @@ TypeErrors | #Logic Error | #RunTime Error | #syntax Error
 --- | --- | --- | --- 
 Seconds |  A logic error produces unintended or undesired output or other behaviour | A program crash is the most noticeable type of runtime error, since the program unexpectedly quits while running. Crashes can be caused by memory leaks or other programming errors. | A syntax error is an error in the source code of a program. Since computer programs must follow strict syntax to compile correctly, any aspects of the code that do not conform to the syntax of the programming language will produce a syntax error. | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
-#
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+# 1. Constructor & Method
+constructor | method 
+--- | --- |
+  Constructor is used to create and initialize an Object  | 	Method is used to execute certain statements. | 
+--- | --- |
+
+
+  
+A constructor cannot have any return type.		A method can have a return type
+
+	A constructor must have same name as that of the class.
+	A method name cannot be same as class name.
+Only access modifier in constructor in public	A method can be having any access modifier
+
+2.
+ Static 	Non-static
+A variable must be declaring with static keyword	A variable should not be content a static keyword while declare
+Memory allocated a variable once in all program	Memory allocated a variable any time created new object
+
+3.
+Local variable	Member variable
+A local variable is the variable you declare in a function.	A member variable is the variable you declare in a class definition
+Access modifiers cannot be used for local variables.	Access modifiers can be given for instance variables.
+Local variables are visible only within the declared method, constructor, or block.	The instance variables are visible for all methods, constructors and block in the class. Normally
+
