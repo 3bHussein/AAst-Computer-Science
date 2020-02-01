@@ -8,8 +8,8 @@ Using javac in Command Prompet
 -To Run <File>.class use Java in Cmd<br/>
 
 
-TypeErrors | #Logic Error | #RunTime Error | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+TypeErrors | #Logic Error | #RunTime Error | #Compile Error 
+--- | --- | --- | --- 
 Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
 
