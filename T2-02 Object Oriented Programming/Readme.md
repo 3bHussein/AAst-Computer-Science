@@ -27,20 +27,18 @@ Seconds |  A logic error produces unintended or undesired output or other behavi
 # 1. Constructor & Method
 constructor | method 
 --- | --- |
-  Constructor is used to create and initialize an Object  | 	Method is used to execute certain statements. |
-A constructor cannot have any return type.	|	A method can have a return type   |
-
-A constructor must have same name as that of the class.	 |	 A method name cannot be same as class name.  |
-
-  Only access modifier in constructor in public	|	A method can be having any access modifier  |
+  Constructor is used to create and initialize an Object  | 	Method is used to execute certain statements. |#
+A constructor cannot have any return type.	|	A method can have a return type   |#
+A constructor must have same name as that of the class.	 |	 A method name cannot be same as class name.  |#
+Only access modifier in constructor in public	|	A method can be having any access modifier  |#
 
 
 
 	
 
 
-2.
- Static 	Non-static
+# 2.Static & Non-static
+  Static  |	Non-static
 A variable must be declaring with static keyword	A variable should not be content a static keyword while declare
 Memory allocated a variable once in all program	Memory allocated a variable any time created new object
 
