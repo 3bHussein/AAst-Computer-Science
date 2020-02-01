@@ -101,5 +101,14 @@ Any Class Can Content :
     }
 	}
 	
+
+# Encapsulation 
+
+	TO Apply Encapsulation in code 
+	1- Declare Variable with Prive Access Modifer 
+	2-Pass Value using Getter,Setter Method
+	Accessors =getter
+	mutators =setter
+	To Decalre Getter,Setter
 	
 	
