@@ -56,9 +56,24 @@ Local variables are visible only within the declared method, constructor, or blo
 
 
 
-# Class
+# Class :
+			#Must Any Class strart with Capital Word
+			#Must be name of File.java the same name of class
 the  Class is blueprint or Templete
 Any Class Can Content :
-# 1-Feild
-# 2-function
-# 3-constractor
+ 1-Feild
+ 2-function
+ 3-constractor
+ 
+ # Access Modifiers
+ 1-Default: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
+ <br>
+ 2-Public: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
+ <br>
+ 3-Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
+  <br>
+  4-Protected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package
+ 
+ ![Access-Modifiers-in-Java](https://user-images.githubusercontent.com/39864308/73590851-02522880-44f0-11ea-802b-6837d4ead839.png)
+
+ 
