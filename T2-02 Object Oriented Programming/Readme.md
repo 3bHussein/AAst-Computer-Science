@@ -109,7 +109,8 @@ Any Class Can Content :
 	2-Pass Value using Getter,Setter Method
 	Accessors =getter
 	mutators =setter
-	To Decalre Getter,Setter
+	
+# To Decalre Getter,Setter
 	
 	public class Test {
     private int number;
