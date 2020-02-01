@@ -91,4 +91,15 @@ Any Class Can Content :
 ![Access-Modifiers-in-Java](https://user-images.githubusercontent.com/39864308/73590851-02522880-44f0-11ea-802b-6837d4ead839.png)
 
 
+# simple java Code
+	import java.lang;
+	package com.test ;
+	class Test {
+	
+    public static void main(String[] args){
+        System.out.println("Hello World!");
+    }
+	}
+	
+	
 	
