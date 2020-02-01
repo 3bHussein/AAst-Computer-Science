@@ -50,3 +50,15 @@ A local variable is the variable you declare in a function.|	A member variable i
 Access modifiers cannot be used for local variables.|	Access modifiers can be given for instance variables.|
 Local variables are visible only within the declared method, constructor, or block.|	The instance variables are visible for all methods, constructors and block in the class. Normally |
 
+
+
+
+
+
+
+# Class
+the  Class is blueprint or Templete
+Any Class Can Content :
+# 1-Feild
+# 2-function
+# 3-constractor
