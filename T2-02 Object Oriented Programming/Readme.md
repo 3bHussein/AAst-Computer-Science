@@ -111,4 +111,20 @@ Any Class Can Content :
 	mutators =setter
 	To Decalre Getter,Setter
 	
+	public class Test {
+    private int number;
+
+    public int getNumber() {
+
+        return this.number;
+
+    }
+
+    public void setNumber(int num) {
+
+        this.number = num;
+
+    }
+
+	}
 	
