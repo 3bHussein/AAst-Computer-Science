@@ -14,6 +14,7 @@ Using javac in Command Prompet
 <Access Modified><DataType><Identifier>=Value<br>
   Public int c =5;<br>
  --To Declare Constants Variable 
+  
 <Access Modified><static><final><DataType><Identifier>=Value<br>
 #
 TypeErrors | #Logic Error | #RunTime Error | #syntax Error 
