@@ -26,14 +26,13 @@ Seconds |  A logic error produces unintended or undesired output or other behavi
 
 # 1. Constructor & Method
 constructor | method 
---- | --- | --- | --- 
+--- | --- |
   Constructor is used to create and initialize an Object  | 	Method is used to execute certain statements. |
-  --- | --- | --- | --- 
-A constructor cannot have any return type.	|	A method can have a return type |
---- | --- | --- | --- 
-	A constructor must have same name as that of the class.|A method name cannot be same as class name.|
-	--- | --- | --- | --- 
-  Only access modifier in constructor in public	|A method can be having any access modifier|
+A constructor cannot have any return type.	|	A method can have a return type   |
+
+A constructor must have same name as that of the class.	 |	 A method name cannot be same as class name.  |
+
+  Only access modifier in constructor in public	|	A method can be having any access modifier  |
 
 
 
