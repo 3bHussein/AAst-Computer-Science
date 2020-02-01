@@ -38,13 +38,15 @@ Only access modifier in constructor in public	|	A method can be having any acces
 
 
 # 2.Static & Non-static
-  Static  |	Non-static
-A variable must be declaring with static keyword	A variable should not be content a static keyword while declare
-Memory allocated a variable once in all program	Memory allocated a variable any time created new object
+Static  |	Non-static
+--- | --- |
+A variable must be declaring with static keyword  |	A variable should not be content a static keyword while declare
+Memory allocated a variable once in all program	 |Memory allocated a variable any time created new object |
 
-3.
-Local variable	Member variable
-A local variable is the variable you declare in a function.	A member variable is the variable you declare in a class definition
-Access modifiers cannot be used for local variables.	Access modifiers can be given for instance variables.
-Local variables are visible only within the declared method, constructor, or block.	The instance variables are visible for all methods, constructors and block in the class. Normally
+# 3.Local variable & Member variable
+Local variable|	Member variable
+--- | --- |
+A local variable is the variable you declare in a function.|	A member variable is the variable you declare in a class definition |
+Access modifiers cannot be used for local variables.|	Access modifiers can be given for instance variables.|
+Local variables are visible only within the declared method, constructor, or block.|	The instance variables are visible for all methods, constructors and block in the class. Normally |
 
