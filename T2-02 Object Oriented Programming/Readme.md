@@ -78,6 +78,8 @@ Any Class Can Content :
 <h2> 4-Protected:</h2><br>
   The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package
  <br>
- ![Access-Modifiers-in-Java](https://user-images.githubusercontent.com/39864308/73590851-02522880-44f0-11ea-802b-6837d4ead839.png)
+ 
+![Access-Modifiers-in-Java](https://user-images.githubusercontent.com/39864308/73590851-02522880-44f0-11ea-802b-6837d4ead839.png)
+
 
  
