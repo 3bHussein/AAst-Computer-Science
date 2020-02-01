@@ -11,7 +11,7 @@ Using javac in Command Prompet
 --Funation in Java it's Called method
 
 --TO Declare Variable 
-<Access Modified><DataType><Identifier>=Value<br>
+<<Access Modified>><<DataType>><<Identifier>>=Value<br>
   
   Public int c =5;<br>
  --To Declare Constants Variable 
