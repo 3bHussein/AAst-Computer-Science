@@ -11,12 +11,12 @@ Using javac in Command Prompet
 --Funation in Java it's Called method
 
 --TO Declare Variable 
-<<Access Modified>><<DataType>><<Identifier>>=Value<br>
+(Access Modified)(DataType)(Identifier)=Value<br>
   
   Public int c =5;<br>
  --To Declare Constants Variable 
   
-<Access Modified><static><final><DataType><Identifier>=Value<br>
+(Access Modified)(static)(final)(DataType)(Identifier)=Value<br>
 #
 TypeErrors | #Logic Error | #RunTime Error | #syntax Error 
 --- | --- | --- | --- 
