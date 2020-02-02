@@ -6,6 +6,10 @@
                                                 AAst reference Point
 https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sharing
 
+//**************************************************************
+//All Operation with Any LinkedList
+//Create New Node
+//
 
 
 # Singly LinkedList
@@ -16,6 +20,8 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
     typedef struct node{
     int Data;
     struct node *next;}*Head,*Tail;
+    
+
 
 
 
