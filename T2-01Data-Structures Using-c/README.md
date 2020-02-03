@@ -22,15 +22,15 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
     //12-Swap Two Node (With Move Data) (Not Done)
     //13-Swap Two Node (without Move Data) (Not Done)
     //14-Reverse List
-    //15-Concatenate Two LikedList
-    //16-Combine Two Sort List into New List
-    //17-Check if a List is Sort
-    //18-Check if a  Circular double List is Sort
-    //19-Display all element above the Average in List
-    //20-Insert into Sort List 
-    //21-Display All prime element in List
-    //22-Check if a circular is mirror or not
-    //23-Dispose a double List
+    //15-Concatenate Two LikedList (Not Done)
+    //16-Combine Two Sort List into New List (Not Done)
+    //17-Check if a List is Sort (Not Done)
+    //18-Check if a  Circular double List is Sort (Not Done)
+    //19-Display all element above the Average in List (Not Done)
+    //20-Insert into Sort List  (Not Done)
+    //21-Display All prime element in List (Not Done)
+    //22-Check if a circular is mirror or not (Not Done)
+    //23-Dispose a double List (Not Done)
 
 <br>
 
@@ -223,7 +223,7 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
          printf("Element  is : %d \n", Head->Data);
 		Head = Head->next;
     }
-    }
+    } 
 
 
 
