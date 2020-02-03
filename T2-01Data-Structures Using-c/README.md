@@ -43,6 +43,7 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
     //4-check if two Stack are reverse<br>
     //5-check if the sum of the upper half of a Stack is the same as the sum of the lower half<br>
 
+<br>
 
 
 
@@ -56,11 +57,20 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
     #include<stdio.h>
     #include<stdlib.h>
     #include<conio.h>
-    
+    //Create Single List
     typedef struct node{
     int Data;
     struct node *next;}*Head,*Tail;
-    
+    //Create New Node
+    struct node * Create(){
+        struct node * ptr=NULL;
+        ptr=(struct node *)mallco(sizeof(struct node));
+        if(ptr){
+            
+        }
+
+    }
+
 
 
 
