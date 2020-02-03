@@ -6,36 +6,36 @@
                                                 AAst reference Point
 https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sharing
 
-    //**************************************************************<br>
-    //All Operation with Any LinkedList:<br>
-    //1-Create,Initialize New List<br>
-    //2-Create New Node<br>
-    //3-Insert Node into Tail<br>
-    //4-Insert Node into Head<br>
-    //5-Insert Node into n Position<br>
-    //6-Display List<br>
-    //7-Destroy a List node by node<br>
-    //8-Make A Copy into New List <br>
-    //9-Count a Number in List<br>
-    //10-Find The Max,min,average in List<br>
-    //11-Move Node To n Position<br>
-    //12-Swap Two Node (With Move Data)<br>
-    //13-Swap Two Node (without Move Data)<br>
-    //14-Reverse List<br>
-    //15-Concatenate Two LikedList<br>
-    //16-Combine Two Sort List into New List<br>
-    //17-Check if a List is Sort<br>
-    //18-Check if a  Circular double List is Sort<br>
-    //19-Display all element above the Average in List<br>
-    //20-Insert into Sort List <br>
-    //21-Display All prime element in List<br>
-    //22-Check if a circular is mirror or not<br>
-    //23-Dispose a double List<br>
+    //**************************************************************
+    //All Operation with Any LinkedList:
+    //1-Create,Initialize New List
+    //2-Create New Node
+    //3-Insert Node into Tail
+    //4-Insert Node into Head
+    //5-Insert Node into n Position
+    //6-Display List
+    //7-Destroy a List node by node
+    //8-Make A Copy into New List Not Done
+    //9-Count a Number in List
+    //10-Find The Max,min,average in List
+    //11-Move Node To n Position
+    //12-Swap Two Node (With Move Data)
+    //13-Swap Two Node (without Move Data)
+    //14-Reverse List
+    //15-Concatenate Two LikedList
+    //16-Combine Two Sort List into New List
+    //17-Check if a List is Sort
+    //18-Check if a  Circular double List is Sort
+    //19-Display all element above the Average in List
+    //20-Insert into Sort List 
+    //21-Display All prime element in List
+    //22-Check if a circular is mirror or not
+    //23-Dispose a double List
 
 <br>
 
 
-    //**************************************************************<br>
+    //**************************************************************
     //All Operation with Any Stack:<br>
     //1-Create,Initialize New Stack<br>
     //2-Find The Max,min,average in Stack<br>
@@ -141,6 +141,7 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
             i++;
             }
         }
+        printf("The Numer Node in List is : %d",i);
     }
 
     //7-Destroy a List node by node<br>
@@ -149,8 +150,52 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
        temp=temp->next;
        free(temp);
      }
-    }
+    } 
     
+
+    //9-Count a Number in List<br>
+    void CountList(struct node *s){
+        int i =0;
+        if(s){
+            while(s){
+                s=s->next;
+                i++;
+            }
+                    printf("The Numer Node in List is : %d",i);
+
+        }
+    }
+     
+     //10-Find The Max
+    void Max(struct node * s){
+        s=Head;
+        int max =Head->Data;
+        if(s!=NULL){
+            while(s){
+                if(s->Data>max){
+                    max=s->Data;
+                }
+                s=s->next;
+            }
+        }
+        printf("The Max Value in List is %d :,max);
+    }
+
+     //10-Find The min
+    void Max(struct node * s){
+        s=Head;
+        int min =Head->Data;
+        if(s!=NULL){
+            while(s){
+                if(s->Data<min){
+                    max=s->Data;
+                }
+                s=s->next;
+            }
+        }
+        printf("The Min Value in List is %d :,min);
+    }
+
 
 
 
