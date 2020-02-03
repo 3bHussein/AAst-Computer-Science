@@ -35,13 +35,13 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
 <br>
 
 
-//**************************************************************<br>
-//All Operation with Any Stack:<br>
-//1-Create,Initialize New Stack<br>
-//2-Find The Max,min,average in Stack<br>
-//3-Check if two Stack are equal<br>
-//4-check if two Stack are reverse<br>
-//5-check if the sum of the upper half of a Stack is the same as the sum of the lower half<br>
+    //**************************************************************<br>
+    //All Operation with Any Stack:<br>
+    //1-Create,Initialize New Stack<br>
+    //2-Find The Max,min,average in Stack<br>
+    //3-Check if two Stack are equal<br>
+    //4-check if two Stack are reverse<br>
+    //5-check if the sum of the upper half of a Stack is the same as the sum of the lower half<br>
 
 
 
