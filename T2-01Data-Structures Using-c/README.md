@@ -61,8 +61,10 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
     typedef struct node{
     int Data;
     struct node *next;}
+
     //Head,Tail Abstract or Global Variable
     *Head,*Tail;
+
     //Create New Node
     struct node * Createsnode(int data){
         struct node * ptr=NULL;
@@ -75,8 +77,7 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
     }
 
     //Insert Node into Tail
-    void insertIntoTail(int data,struct node * ptr){
-        
+    void insertIntoTail(int data,struct node * ptr){   
         ptr=Createsnode(data);
         if(ptr){
             if(Head==NULL){
@@ -90,6 +91,59 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
            
         }
         }
+    //4-Insert Node  into Head
+    void insertIntoHead(int data,struct node * ptr){
+        ptr=Createsnode(data);
+        if(ptr){
+            if(Head==NULL){
+                Head=Tail=ptr;
+            }
+            else{
+                ptr->next=Head;
+                Head=ptr;
+            }
+        }
+    }
+
+    //5-Insert into n Position
+    void insertIntoPositions(int data,struct node * ptr,int location){
+        int i;
+        struct node * temp=NULL;
+        struct node * ptr=NULL;
+        ptr=Createsnode(data);
+        if(ptr){
+            if(Head==NULL){
+                Head==Tail=ptr
+            }
+           else if(location==0){
+            ptr->next=Head;
+            Head=ptr;   
+            }
+
+            else{
+                temp=Head;
+                for(i=0;i<location-1;i++){
+                    temp=temp->next;
+                }
+                ptr->next=temp->next;
+                temp->next=ptr;
+            }
+        }}
+
+    //6-Display List
+
+    void DisplayList (struct node * s){
+        int i=0;
+        if(s){
+            while(s){
+            printf("Element %d is : %d \n",i, s->Data);
+            s = s->next;
+            i++;
+            }
+        }
+    }
+
+    
 
 
 
