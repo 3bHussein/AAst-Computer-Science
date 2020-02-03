@@ -15,12 +15,12 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
     //5-Insert Node into n Position
     //6-Display List
     //7-Destroy a List node by node
-    //8-Make A Copy into New List Not Done
-    //9-Count a Number in List
-    //10-Find The Max,min,average in List
-    //11-Move Node To n Position
-    //12-Swap Two Node (With Move Data)
-    //13-Swap Two Node (without Move Data)
+    //8-Make A Copy into New List (Not Done)
+    //9-Count a Number in List  
+    //10-Find The Max,min,average in List (Not Done)
+    //11-Move Node To n Position (Not Done)
+    //12-Swap Two Node (With Move Data) (Not Done)
+    //13-Swap Two Node (without Move Data) (Not Done)
     //14-Reverse List
     //15-Concatenate Two LikedList
     //16-Combine Two Sort List into New List
@@ -202,9 +202,9 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
      //14-Reverse List
       void reverse()
     {
-	struct snode* prev = NULL;
-	struct snode* current = Head;
-	struct snode* next = NULL;
+	struct node* prev = NULL;
+	struct node* current = Head;
+	struct node* next = NULL;
 	while (current != NULL) {
 		// Store next
 		next = current->next;
