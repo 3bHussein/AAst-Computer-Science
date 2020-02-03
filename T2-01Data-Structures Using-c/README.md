@@ -143,6 +143,13 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
         }
     }
 
+    //7-Destroy a List node by node<br>
+    void Destroynode(struct node * temp){
+      while(temp->next!=NULL){
+       temp=temp->next;
+       free(temp);
+     }
+    }
     
 
 
