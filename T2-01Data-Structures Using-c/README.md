@@ -60,17 +60,36 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
     //Create Single List
     typedef struct node{
     int Data;
-    struct node *next;}*Head,*Tail;
+    struct node *next;}
+    //Head,Tail Abstract or Global Variable
+    *Head,*Tail;
     //Create New Node
-    struct node * Create(){
+    struct node * Createsnode(int data){
         struct node * ptr=NULL;
         ptr=(struct node *)mallco(sizeof(struct node));
         if(ptr){
-            
+            ptr->Data=data;
+            ptr->next=NULL;
         }
-
+        return ptr;
     }
 
+    //Insert Node into Tail
+    void insertIntoTail(int data,struct node * ptr){
+        
+        ptr=Createsnode(data);
+        if(ptr){
+            if(Head==NULL){
+                Head=Tail=ptr;
+            }
+            else{
+                Tail->next=ptr;
+                ptr->next=Tail;
+                Tail=ptr;
+            }
+           
+        }
+        }
 
 
 
