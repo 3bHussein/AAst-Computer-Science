@@ -6,32 +6,31 @@
                                                 AAst reference Point
 https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sharing
 
-	  //******************************************************************
-    //All Operation with Any LinkedList:                               *  
-    //1-Create,Initialize New List                                     *
-    //2-Create New Node                                                *
-    //3-Insert Node into Tail										   *
-    //4-Insert Node into Head										   *
-    //5-Insert Node into n Position									   *
-    //6-Display List												   *
-    //7-Destroy a List node by node									   *
-    //8-Make A Copy into New List (Not Done)						   *
-    //9-Count a Number in List  									   *
-    //10-Find The Max,min,average in List (Not Done)				   *
-    //11-Move Node To n Position (Not Done)							   *
-    //12-Swap Two Node (With Move Data) (Not Done)					   *
-    //13-Swap Two Node (without Move Data) (Not Done)				   *
-    //14-Reverse List												   *
-    //15-Concatenate Two LikedList (Not Done)						   *
-    //16-Combine Two Sort List into New List (Not Done)				   *
-    //17-Check if a List is Sort (Not Done)							   *
-    //18-Check if a  Circular double List is Sort (Not Done)		   *
-    //19-Display all element above the Average in List (Not Done) 	   *
-    //20-Insert into Sort List  (Not Done)							   *
-    //21-Display All prime element in List (Not Done)				   *
-    //22-Check if a circular is mirror or not (Not Done)			   *
-    //23-Dispose a double List (Not Done)							   *
-		//******************************************************************
+    //*****************************************************************//
+    //All Operation with Any LinkedList:                              *  
+    //1-Create,Initialize New List                                    *
+    //2-Create New Node                                               *
+    //3-Insert Node into Tail
+    //4-Insert Node into Head
+    //5-Insert Node into n Position
+    //6-Display List
+    //7-Destroy a List node by node
+    //8-Make A Copy into New List (Not Done)
+    //9-Count a Number in List  
+    //10-Find The Max,min,average in List (Not Done)
+    //11-Move Node To n Position (Not Done)
+    //12-Swap Two Node (With Move Data) (Not Done)
+    //13-Swap Two Node (without Move Data) (Not Done)
+    //14-Reverse List
+    //15-Concatenate Two LikedList (Not Done)
+    //16-Combine Two Sort List into New List (Not Done)
+    //17-Check if a List is Sort (Not Done)
+    //18-Check if a  Circular double List is Sort (Not Done)
+    //19-Display all element above the Average in List (Not Done) 
+    //20-Insert into Sort List  (Not Done)
+    //21-Display All prime element in List (Not Done)
+    //22-Check if a circular is mirror or not (Not Done)
+    //23-Dispose a double List (Not Done)
 
 <br>
 
