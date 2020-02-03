@@ -6,7 +6,7 @@
                                                 AAst reference Point
 https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sharing
 
-   //******************************************************************
+	  //******************************************************************
     //All Operation with Any LinkedList:                               *  
     //1-Create,Initialize New List                                     *
     //2-Create New Node                                                *
@@ -31,7 +31,7 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
     //21-Display All prime element in List (Not Done)				   *
     //22-Check if a circular is mirror or not (Not Done)			   *
     //23-Dispose a double List (Not Done)							   *
-	//******************************************************************
+		//******************************************************************
 
 <br>
 
