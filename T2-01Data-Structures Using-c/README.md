@@ -199,6 +199,35 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
 
 
 
+     //14-Reverse List
+      void reverse()
+    {
+	struct snode* prev = NULL;
+	struct snode* current = Head;
+	struct snode* next = NULL;
+	while (current != NULL) {
+		// Store next
+		next = current->next;
+
+		// Reverse current node's pointer
+		current->next = prev;
+
+		// Move pointers one position ahead.
+		prev = current;
+		current = next;
+	}
+	Head = prev;
+	printf("reverse List ...\n");
+    while(Head){
+
+         printf("Element  is : %d \n", Head->Data);
+		Head = Head->next;
+    }
+    }
+
+
+
+
 
 
 
