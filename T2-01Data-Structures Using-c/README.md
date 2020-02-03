@@ -7,9 +7,9 @@
 https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sharing
 
     //*****************************************************************//
-    //All Operation with Any LinkedList:                              *  
-    //1-Create,Initialize New List                                    *
-    //2-Create New Node                                               *
+    //All Operation with Any LinkedList:                               
+    //1-Create,Initialize New List                                   
+    //2-Create New Node                                              
     //3-Insert Node into Tail
     //4-Insert Node into Head
     //5-Insert Node into n Position
