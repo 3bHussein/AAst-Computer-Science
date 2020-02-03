@@ -6,7 +6,7 @@
                                                 AAst reference Point
 https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sharing
 
-    //**************************************************************
+    //**************************************************************//
     //All Operation with Any LinkedList:
     //1-Create,Initialize New List
     //2-Create New Node
@@ -35,7 +35,7 @@ https://drive.google.com/drive/folders/1ieIlDsVhrT_wxeeGJtZgPYnIQDrNS__j?usp=sha
 <br>
 
 
-    //**************************************************************
+    //**************************************************************//
     //All Operation with Any Stack:
     //1-Create,Initialize New Stack
     //2-Find The Max,min,average in Stack
