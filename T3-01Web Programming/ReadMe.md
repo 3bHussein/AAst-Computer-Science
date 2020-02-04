@@ -6,4 +6,10 @@
  #
  <br>
   <kbd>></kbd> introducation
-  						&nbsp; &nbsp; &nbsp;  <kbd>></kbd> introducation
+  						&nbsp; &nbsp; &nbsp;  <kbd>></kbd> MindMap <br>
+
+  <kbd>></kbd> Feature
+  						&nbsp; &nbsp; &nbsp;  <kbd>></kbd> SnapShot
+<br>
+
+
