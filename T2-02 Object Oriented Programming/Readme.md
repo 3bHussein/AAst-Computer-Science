@@ -129,3 +129,9 @@ Any Class Can Content :
 
 	}
 	
+
+# SnapShot For Encapsulation
+
+[New Doc 2020-02-05 10.02.21.pdf](https://github.com/3bHussein/AAst-Computer-Science/files/4158111/New.Doc.2020-02-05.10.02.21.pdf)
+
+	
