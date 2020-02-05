@@ -149,7 +149,7 @@
 
 	create Database LibrarySystemDB;
 	--Dewey Decimal Classification (DDC)
-	--Tables:  BOOk,Author,Category,
+	--Tables:  BOOk,Author,Category,Employee,Borrow,Customer,Selling,
 	go
 	use LibrarySystemDB;
 	go
@@ -173,8 +173,8 @@
 	Foreign key(Cateid)REFERENCES CategoryTb(Cateid));
 	go
 	
-	go
 	--Create Table 
+
 
 
 
