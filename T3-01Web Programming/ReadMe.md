@@ -138,7 +138,7 @@
 	-Easy To Maintain Database
 	
 	
-#				  <kbd>></kbd>SnapShop
+#				  <kbd>></kbd>SnapShot
 
 
 ![New Doc 2020-02-04 13 45 08_1](https://user-images.githubusercontent.com/39864308/73742282-be139200-4754-11ea-879f-0526c1d16a1c.jpg)
