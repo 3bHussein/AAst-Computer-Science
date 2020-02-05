@@ -143,4 +143,34 @@
 
 ![New Doc 2020-02-04 13 45 08_1](https://user-images.githubusercontent.com/39864308/73742282-be139200-4754-11ea-879f-0526c1d16a1c.jpg)
 
+#
+
+#				  <kbd>></kbd>DataBase Code using MSSQL Server
+
+	create Database LibrarySystemDB;
+	--Dewey Decimal Classification (DDC)
+	--Tables:  BOOk,Author,Category,
+	go;
+	use LibrarySystemDB;
+	--Create Table BOOK in Database
+	Create Table BookTb
+	(bookid int primary key identity(1,1),Title nvarchar(max),
+	CopyNo int,DDCNo varchar(max),Description nvarchar(max),
+	Authorid int,Cateid int ,constraint FK_BookAuthor Foreign key
+	(Authorid)REFERENCES AuthorTb(authorid),constraint FK_BookCate
+	Foreign key(Cateid)REFERENCES CategoryTb(Cateid));
+
+	--Create Table Author in Database
+	Create Table AuthorTb
+	(Authorid int primary key identity(1,1),
+	Name nvarchar(max),Desription nvarchar(max))
+	
+	--Create Table CategoryTb
+	(Cateid int primary key identity(1,1),
+	CateName nvarchar(max),Desription nvarchar(max))
+	
+	--Create Table 
+
+
+
 
