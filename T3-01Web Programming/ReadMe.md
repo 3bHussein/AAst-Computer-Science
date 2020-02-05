@@ -69,12 +69,34 @@
 	ThinkTank:
 	2-PostMan Application
 	1-SetTime out function in JavaScript:infinite loop
+	
+# DOM :Documant Object Model
+	Dom Work with :
+		1-Ankor
+		2-Form
+		3-Style
+		4-Mouse-Keyboard Click
+		
+	By using Code :
+		getelementbyid("");
+
+
+
 
 	
 #
+
 					=========================================================
 		                        Web Programming Project [Library Integrated System (LIS)]
 		                        =========================================================
+ # Note:
+ 	- 31/1/2020 We Take Ajax Last Lecture 14,15,16,17
+ 	-تصنيف ديوي العشري
+ 	-Dewey decimal classification
+ 	-Z39.50 protocal
+	-Add CategoriesTable For BookTable
+	-Add Complent Table For Client
+	
  
  #  :arrow_right: Presentation Content
  #
