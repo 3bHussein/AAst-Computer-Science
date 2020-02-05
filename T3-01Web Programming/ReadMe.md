@@ -149,7 +149,7 @@
 
 	create Database LibrarySystemDB;
 	--Dewey Decimal Classification (DDC)
-	--Tables:  BOOk,Author,Category,Employee,Borrow,Customer,Selling,
+	--Tables:  BOOk,Author,Category,Employee,Borrow,Customer,Selling,State,Complent
 	go
 	use LibrarySystemDB;
 	go
@@ -174,7 +174,7 @@
 	go
 	
 	--Create Table 
-
+	
 
 
 
