@@ -150,8 +150,9 @@
 	create Database LibrarySystemDB;
 	--Dewey Decimal Classification (DDC)
 	--Tables:  BOOk,Author,Category,
-	go;
+	go
 	use LibrarySystemDB;
+	go
 	--Create Table BOOK in Database
 	Create Table BookTb
 	(bookid int primary key identity(1,1),Title nvarchar(max),
@@ -159,17 +160,17 @@
 	Authorid int,Cateid int ,constraint FK_BookAuthor Foreign key
 	(Authorid)REFERENCES AuthorTb(authorid),constraint FK_BookCate
 	Foreign key(Cateid)REFERENCES CategoryTb(Cateid));
-
+	go
 	--Create Table Author in Database
 	Create Table AuthorTb
 	(Authorid int primary key identity(1,1),
 	Name nvarchar(max),Desription nvarchar(max))
-	
+	go
 	--Create Table CategoryTb
 	Create Table CategoryTb
 	(Cateid int primary key identity(1,1),
 	CateName nvarchar(max),Desription nvarchar(max))
-	
+	go
 	--Create Table 
 
 
