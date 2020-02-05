@@ -1,4 +1,72 @@
-                                   =========================================================
+# Web programming Track(HTML,CSS,JS,Mysql,Ajax,JQuery,Php)
+ 	-20 For exam
+	-40 For Project
+#
+# Php
+	On of Lectures:
+	Syntax For Mysql:
+	--------------
+	mysql-connect |(servername,uname,password,port,socket);
+	--------------
+	
+	Example for Old Exam:
+	-Make Form by PHP
+	-Trace Code
+	-CRUD by PHP Code
+	-Handle Code
+	in Php1,2 Power point in Slide 22,23,24
+#
+# CSS
+	There Was Tree Way To Write CSS:
+	1-inline:
+	<p style="color:red;">Hello</p>
+	================
+	2-Documant Level|
+	================
+	<html>
+	<body>
+	<style>
+	p{
+	color:red
+	}
+	</style>
+	<p>Hello</p>
+	</body>
+	</html>
+	================
+	3-External Level|
+	================
+	<html>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<body>
+	<p>Hello</p>
+	</body>
+	</html>
+	
+#
+# Type of CSS Selectors
+	1-Element Selector:
+	p{color:red;}
+	
+	2-Id Selector:
+	#para1 {color:red;}
+	
+	3-Class Selector:
+	.center {text-align:center;}
+	
+	4-Universal Selector:
+	* {text-align: center;color: blue;}
+	
+	5-Pseudo Selector:
+	a:link {  color: #FF0000;}
+
+
+  
+
+
+	
+#
+					=========================================================
 		                        Web Programming Project [Library Integrated System (LIS)]
 		                        =========================================================
  
