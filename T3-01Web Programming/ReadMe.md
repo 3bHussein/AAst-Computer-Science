@@ -166,6 +166,7 @@
 	Name nvarchar(max),Desription nvarchar(max))
 	
 	--Create Table CategoryTb
+	Create Table CategoryTb
 	(Cateid int primary key identity(1,1),
 	CateName nvarchar(max),Desription nvarchar(max))
 	
