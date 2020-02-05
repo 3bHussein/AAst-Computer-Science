@@ -121,6 +121,8 @@
 
 
 
+#					 <kbd>></kbd> MindMap 
+![Capture](https://user-images.githubusercontent.com/39864308/73829002-e8c02200-480a-11ea-9a7e-ea50c2a9b802.PNG)
 
 
 
