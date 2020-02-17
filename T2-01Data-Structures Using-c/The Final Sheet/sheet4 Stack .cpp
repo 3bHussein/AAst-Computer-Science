@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-// Stack Implementation using Linked Lists by Mhmoudko
+// Stack
 
 // Structure of Linked List
 struct Node {
@@ -56,59 +56,34 @@ int Top(Node **stack){
 	return (*stack)->data;
 }
 
-// Prints the Stack (Just for testing)
-void Print(Node **stack){
-	Node *p = *stack;
-	while(p != NULL){
-		printf("%d ",p->data);
-		p=p->next;
-	}
-}
 
-// Prints the Stack (Correct Implementation)
-void Display(Node **stack){
-	Node *temp = Initialize(&temp) ;
-	
-	while(!isEmpty(*&stack)){
-		int x = Top(*&stack);
-		printf("%d ",x);
-		Push(&temp,x);
-		Pop(*&stack);
-	}
-	
-	while(!isEmpty(&temp)){
-		int x = Top(&temp);
-		Push(*&stack,x);
-		Pop(&temp);
-	}
-}
 
 // Count elements in the Stack
 int Count(Node **stack){
 	int counter = 0;
 	Node *temp = Initialize(&temp) ;
-	
+
 	while(!isEmpty(*&stack)){
 		int x = Top(*&stack);
 		counter++;
 		Push(&temp,x);
 		Pop(*&stack);
 	}
-	
+
 	while(!isEmpty(&temp)){
 		int x = Top(&temp);
 		Push(*&stack,x);
 		Pop(&temp);
 	}
-	
+
 	return counter;
 }
 
-// Get max element of stack
+// 1- Get max element of stack
 int max(Node **stack){
 	int max = Top(*&stack);
 	Node *temp = Initialize(&temp) ;
-	
+
 	while(!isEmpty(*&stack)){
 		int x = Top(*&stack);
 		Push(&temp,x);
@@ -117,44 +92,22 @@ int max(Node **stack){
 		}
 		Pop(*&stack);
 	}
-	
+
 	while(!isEmpty(&temp)){
 		int x = Top(&temp);
 		Push(*&stack,x);
 		Pop(&temp);
 	}
-	
+
 	return max;
 }
 
-// Get min element of stack
-int min(Node **stack){
-	int min = Top(*&stack);
-	Node *temp = Initialize(&temp) ;
-	
-	while(!isEmpty(*&stack)){
-		int x = Top(*&stack);
-		Push(&temp,x);
-		if(x < min){
-			min = x;
-		}
-		Pop(*&stack);
-	}
-	
-	while(!isEmpty(&temp)){
-		int x = Top(&temp);
-		Push(*&stack,x);
-		Pop(&temp);
-	}
-	
-	return min;
-}
 
-// Get average of stack
+//2- Get average of stack
 float avg(Node **stack){
 	int sum = 0 , counter = 0;
 	Node *temp = Initialize(&temp) ;
-	
+
 	while(!isEmpty(*&stack)){
 		int x = Top(*&stack);
 		sum += x;
@@ -162,41 +115,18 @@ float avg(Node **stack){
 		Push(&temp,x);
 		Pop(*&stack);
 	}
-	
+
 	while(!isEmpty(&temp)){
 		int x = Top(&temp);
 		Push(*&stack,x);
 		Pop(&temp);
 	}
-	
+
 	return sum/counter;
 }
 
-// Search for x , returns it's position from top
-int Search(Node **stack, int target){
-	int found = -1 , counter = 0;
-	Node *temp = Initialize(&temp) ;
-	
-	while(!isEmpty(*&stack)){
-		int x = Top(*&stack);
-		counter++;
-		if(x == target){
-			found = counter;
-		}
-		Push(&temp,x);
-		Pop(*&stack);
-	}
-	
-	while(!isEmpty(&temp)){
-		int x = Top(&temp);
-		Push(*&stack,x);
-		Pop(&temp);
-	}
-	
-	return found;
-}
 
-// Check if 2 Stacks are equal
+//3- Check if 2 Stacks are equal
 int isEqual(Node **stack1,Node **stack2){
 	int equal = 1;
 	Node *temp1 = Initialize(&temp1) , *temp2 = Initialize(&temp2);
@@ -212,35 +142,35 @@ int isEqual(Node **stack1,Node **stack2){
 		Pop(*&stack1);
 		Pop(*&stack2);
 	}
-	
+
 	if(!isEmpty(*&stack1)){
 		int x1 = Top(*&stack1);
 		equal = 0;
 		Push(&temp1,x1);
 	}
-	
+
 	if(!isEmpty(*&stack2)){
 		int x2 = Top(*&stack2);
 		equal = 0;
 		Push(&temp2,x2);
 	}
-	
+
 	while(!isEmpty(&temp1)){
 		int x = Top(&temp1);
 		Push(*&stack1,x);
 		Pop(&temp1);
 	}
-	
+
 	while(!isEmpty(&temp2)){
 		int x = Top(&temp2);
 		Push(*&stack2,x);
 		Pop(&temp2);
 	}
-	
+
 	return equal;
 }
 
-// Check if 2 Stacks are reverse to each other
+//4- Check if 2 Stacks are reverse to each other
 int isReverse(Node **stack1,Node **stack2){
 	int reverse = 1;
 	Node *temp = Initialize(&temp) ;
@@ -250,7 +180,7 @@ int isReverse(Node **stack1,Node **stack2){
 		Push(&temp,x);
 		Pop(*&stack1);
 	}
-	
+
 	if(!isEqual(&temp,*&stack2)){
 		reverse = 0;
 	}
@@ -260,20 +190,20 @@ int isReverse(Node **stack1,Node **stack2){
 		Push(&*stack1,x);
 		Pop(&temp);
 	}
-	
+
 	return reverse;
 }
 
-// Check if the upper half equals the lower
+//5- Check if the upper half equals the lower
 int isUpperLower(Node **stack){
 	int n = Count(*&stack) ;
 	int sum1=0 , sum2=0 , counter=0 ;
 	Node *temp = Initialize(&temp);
-	
+
 	if(n%2 != 0){
 		return 0;
 	}
-	
+
 	while(!isEmpty(*&stack)){
 		int x = Top(*&stack);
 		if(counter < n/2){
@@ -286,13 +216,13 @@ int isUpperLower(Node **stack){
 		Push(&temp,x);
 		Pop(*&stack);
 	}
-	
+
 	while(!isEmpty(&temp)){
 		int x = Top(&temp);
 		Push(*&stack,x);
 		Pop(&temp);
 	}
-	
+
 	if(sum1 == sum2){
 		return 1;
 	}
@@ -311,28 +241,21 @@ int main(){
 	Push(&stack1,5);
 	Push(&stack1,1);
 	Push(&stack1,2);
-	Display(&stack1);
-	
+
 	printf("\n\n* Max = %d",max(&stack1));
-	printf("\n* Min = %d",min(&stack1));
+	//printf("\n* Min = %d",min(&stack1));
 	printf("\n* Avg = %.2f",avg(&stack1));
 	printf("\n* Number of elements = %d",Count(&stack1));
-	
+
 	printf("\n\n+===== Test Popping 2 elements =====+\n");
 	Pop(&stack1);
 	Pop(&stack1);
-	Display(&stack1);
-	
+//	Display(&stack1);
+
 	printf("\n\n+===== Test Searching for 2 =====+\n");
-	Display(&stack1);
-	int flag = Search(&stack1,2);
-	if(flag==-1){
-		printf("\nNot Found");
-	}
-	else {
-		printf("\nFound at place %d",flag);
-	}
-	
+//	Display(&stack1);
+//	int flag = Search(&stack1,2);
+
 	printf("\n\n+===== Check if 2 Stacks are equal =====+\n");
 	Node *stack2 = Initialize(&stack2);
 	Push(&stack2,10);
@@ -343,7 +266,7 @@ int main(){
 	Push(&stack2,10);
 	Push(&stack2,20);
 	printf("Stack1: ");
-	Display(&stack2);
+//	Display(&stack2);
 	printf("\n");
 	Node *stack3 = Initialize(&stack3);
 	Push(&stack3,10);
@@ -354,14 +277,14 @@ int main(){
 	Push(&stack3,10);
 	Push(&stack3,20);
 	printf("Stack2: ");
-	Display(&stack3);
+//	Display(&stack3);
 	if(isEqual(&stack2,&stack3)){
 		printf("\nStacks are Equal");
 	}
 	else {
 		printf("\nStacks are Not Equal");
 	}
-	
+
 	printf("\n\n+===== Check if 2 Stacks are reverse to each other =====+\n");
 	Node *stack4 = Initialize(&stack4);
 	Push(&stack4,1);
@@ -370,7 +293,7 @@ int main(){
 	Push(&stack4,4);
 	Push(&stack4,5);
 	printf("Stack1: ");
-	Display(&stack4);
+//	Display(&stack4);
 	printf("\n");
 	Node *stack5 = Initialize(&stack5);
 	Push(&stack5,5);
@@ -379,29 +302,21 @@ int main(){
 	Push(&stack5,2);
 	Push(&stack5,1);
 	printf("Stack2: ");
-	Display(&stack5);
+//	Display(&stack5);
 	if(isReverse(&stack4,&stack5)){
 		printf("\nStacks are Reverse to each other");
 	}
 	else {
 		printf("\nStacks are Not Reverse to each other");
 	}
-	
+
 	printf("\n\n+===== Check if Upper half of stack equals the lower =====+\n");
 	Node *stack6 = Initialize(&stack6);
 	Push(&stack6,2);
 	Push(&stack6,3);
 	Push(&stack6,1);
 	Push(&stack6,4);
-	printf("Stack: ");
-	Display(&stack6);
-	if(isUpperLower(&stack6)){
-		printf("\nUpper Half equals the lower");
-	}
-	else {
-		printf("\nUpper Half not equals the lower");
-	}
-	
+
 	getch();
 	return 0;
 }
