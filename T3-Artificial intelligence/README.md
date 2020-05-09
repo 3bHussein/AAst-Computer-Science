@@ -1,6 +1,6 @@
-# AAst-Computer-Science
+# AAst-Artificial intelligence
 
-# good
+
 
 ![Assignment (1) (copy)](https://user-images.githubusercontent.com/39864308/81486660-884fdf00-9256-11ea-8740-8bc370c5655f.jpg)
 
